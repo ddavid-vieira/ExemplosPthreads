@@ -16,7 +16,7 @@
 #include <time.h>
 
 #define THREAD_NUM 4    // Tamanho do pool de threads
-#define BUFFER_SIZE 256 // Númermo máximo de tarefas enfileiradas
+#define BUFFER_SIZE 10 // Númermo máximo de tarefas enfileiradas
 
 typedef struct Task{
    int a, b;
